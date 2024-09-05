@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "A01B0EC1-BD66-499C-A738-3FD2E3D7077A",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ButtonTap.xcodeproj",
+      "identifier" : "CD5145EE2C8958AA0077C919",
+      "name" : "ButtonTap"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ButtonTap.xcodeproj",
+        "identifier" : "CD5146042C8958AC0077C919",
+        "name" : "ButtonTapTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ButtonTap.xcodeproj",
+        "identifier" : "CD51460E2C8958AC0077C919",
+        "name" : "ButtonTapUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
