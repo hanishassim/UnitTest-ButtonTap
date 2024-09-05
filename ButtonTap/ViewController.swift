@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet private var button: UIButton!
+    @IBOutlet private(set) var button: UIButton!
     
     @IBAction private func buttonTap() {
         print(">> Button was tapped")

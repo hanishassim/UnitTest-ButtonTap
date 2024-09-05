@@ -2,7 +2,11 @@
 import XCTest
 
 final class ViewControllerTests: XCTestCase {
-    func test_zero() throws {
-        XCTFail("Tests not yet implemented in ViewControllerTests")
+    func test_tappingButton() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let sut: ViewController = storyboard.instantiateViewController(identifier: String(describing: ViewController.self))
+        sut.loadViewIfNeeded()
+        
+        sut.button.sendActions(for: .touchUpInside)
     }
 }
